@@ -1,0 +1,177 @@
+main{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.video-suggestions-comments{
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+}
+
+.video-with-space-div{
+    display: flex;
+}
+
+.video{
+    width: 640px;
+    border-radius: 8px;
+}
+
+.video-title{
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+} 
+
+.video-author-subscribe-like-share{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.channel-logo{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.video-author-info{
+    margin-left: 12px;
+}
+
+.video-author{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.offical-music-logo{
+    height: 14px;
+}
+
+.video-author-subscribers{
+    margin-top: 4px;
+    font-size: 12px;
+    color: rgb(104, 103, 103);
+}
+
+.subscribe-div{
+    margin-left: 32px;
+}
+
+.subscribe-button{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 20px;
+}
+
+.like-button{
+    margin-left: 110px;
+    border: none;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 8px;
+}
+
+.like-icon-count{
+    display: flex;
+    align-items: center;
+    padding: 4px 6px 4px 0px;
+}
+
+.like-icon{
+    height: 24px;
+}
+
+.like-count{
+    font-size: 14px;
+    font-family: Roboto;
+    margin-left: 10px;
+    font-weight: 500;
+    margin-right: 6px;
+}
+
+.dislike-button{
+    padding: 6px 16px 4px 6px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.share-icon-with-text{
+    margin-left: 10px;
+    padding-right: 10px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.share-icon-with-text-div{
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.share-text{
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.horizontal-dots-div{
+    background-color: rgba(182, 177, 177, 0.436);
+    margin-left: 10px;
+    padding: 6px 6px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-dots-icon{
+    width: 25px;
+}
+
+.video-description{
+    padding-left: 15px;
+    margin-top: 12px;
+    background-color: rgba(128, 128, 128, 0.167);
+    border-radius: 10px;
+}
+
+.video-description div{
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.view-count{
+    padding-top: 10px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.hashtag{
+    color: gray;
+}
+
+.itunes-link{
+    margin-bottom: 15px;
+}
+
+.more{
+    font-weight: 500;
+}
+
+.wiz-khalifa-tour{
+    padding-bottom: 16px;
+}
+
+.comments{
+    height: 400px;
+    background-color: orange;
+}
