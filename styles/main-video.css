@@ -4,8 +4,16 @@ main{
 
 .video-suggestions-comments{
     display: grid;
-    grid-template-columns: 640px 420px;
-    column-gap: 16px;
+    /* grid-template-columns: 640px minmax(240px,400px); */
+    grid-template-columns: 640px minmax(350px,400px);
+    column-gap: 24px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center; 
+    width: 100vw; 
+    height: 100vh;
 }
 
 .video-with-space-div{
@@ -37,6 +45,7 @@ main{
 
 .video-author-info{
     margin-left: 12px;
+    margin-right: 25px;
 }
 
 .video-author{
@@ -54,9 +63,6 @@ main{
     color: rgb(104, 103, 103);
 }
 
-.subscribe-div{
-    margin-left: 32px;
-}
 
 .subscribe-button{
     font-family: Roboto;
@@ -70,7 +76,7 @@ main{
 }
 
 .like-button{
-    margin-left: 110px;
+    margin-left: 70px;
     border: none;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
