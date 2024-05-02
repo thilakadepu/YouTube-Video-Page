@@ -11,6 +11,7 @@
     letter-spacing: 0.5px;
 }
 
+
 .comments-sort-by-div{
     display: flex;
     align-items: center;
@@ -20,6 +21,26 @@
     margin-left: 32px;
     display: flex;
     align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.sort-by-image:hover .sort-by-comments{
+    opacity: 1;
+}
+
+.sort-by-comments{
+    position: absolute;
+    font: 12px roboto;
+    background-color: gray;
+    border-radius: 4px;
+    padding: 8px 6px;
+    color: white;
+    left: 0;
+    top: 40px;
+    font-weight: 100;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .user-comment-post-div{
@@ -176,3 +197,5 @@
     left: 62px;
     width: 34px;
 }
+
+
