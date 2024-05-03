@@ -209,3 +209,13 @@ main{
         flex: 1;
     }
 }
+
+@media(min-width:200px) and (max-width:672px){
+    
+
+    .video{
+        width: min(75ch, 50%);
+        /* width: max(45ch, 50%); */
+    }
+
+}
