@@ -224,5 +224,10 @@ main{
     .share-icon-with-text{
         width: 0;
         opacity: 0;
+        padding: 0;
+    }
+
+    .extra-space-after-subscribe{
+        flex: unset;
     }
 }
