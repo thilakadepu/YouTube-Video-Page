@@ -1,16 +1,28 @@
 main{
-    display: flex;
-    align-items: center;
     margin-top: 80px;
 }
 
 .video-suggestions-comments{
     display: grid;
-    grid-template-columns: 1.7fr 1fr;
+    /* grid-template-columns: 640px minmax(240px,400px); */
+    grid-template-columns: 640px minmax(350px,400px);
+    column-gap: 24px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center; 
+    /* width: 100vw; 
+    height: 100vh; */
 }
 
 .video-with-space-div{
     display: flex;
+}
+
+.upper-video-div,
+.extra-space-after-subscribe{
+    flex: 1;
 }
 
 .video{
@@ -38,6 +50,7 @@ main{
 
 .video-author-info{
     margin-left: 12px;
+    margin-right: 25px;
 }
 
 .video-author{
@@ -55,9 +68,6 @@ main{
     color: rgb(104, 103, 103);
 }
 
-.subscribe-div{
-    margin-left: 32px;
-}
 
 .subscribe-button{
     font-family: Roboto;
@@ -71,7 +81,7 @@ main{
 }
 
 .like-button{
-    margin-left: 110px;
+    margin-left: 70px;
     border: none;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -171,7 +181,31 @@ main{
     padding-bottom: 16px;
 }
 
-.comments{
-    height: 400px;
-    background-color: orange;
+
+@media(max-width: 1050px){
+    .video-suggestions-comments{
+        grid-template-columns: minmax(200px,1000px);
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: start;
+    }
+
+    .video-description{
+        flex: 1;
+    }
+
+    .video-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .up-next-video-info{
+        flex: 1;
+    }
+
+    .comments-like-dislike{
+        flex: 1;
+    }
 }

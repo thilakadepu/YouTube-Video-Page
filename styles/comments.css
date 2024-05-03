@@ -1,0 +1,205 @@
+.comments-count{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sort-by{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+
+.comments-sort-by-div{
+    display: flex;
+    align-items: center;
+}
+
+.sort-by-image{
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.sort-by-image:hover .sort-by-comments{
+    opacity: 1;
+}
+
+.sort-by-comments{
+    position: absolute;
+    font: 12px roboto;
+    background-color: gray;
+    border-radius: 4px;
+    padding: 8px 6px;
+    color: white;
+    left: 0;
+    top: 40px;
+    font-weight: 100;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.user-comment-post-div{
+    margin:20px 0px;
+    display: flex;
+    align-items:start;
+}
+
+.user-pic{
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.user-comment{
+    margin-left: 20px;
+    padding: 0px 0px 6px 0px ;
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: black;
+    flex: 1;
+}
+
+.comment-with-profile-pic-reply{
+    display: flex;
+    margin-bottom: 14px;
+    position: relative;
+}
+
+.user-name{
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tick{
+    height: 12px;
+}
+
+.comments-like-dislike{
+    margin-left: 16px;
+    position: relative;
+}
+
+.user-name-years-ago{
+    display: flex;
+    align-items: end;
+}
+
+.years-ago{
+    padding-left: 5px;
+    font-size: 12px;
+    color: gray;
+    cursor: pointer;
+}
+
+.comment{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+.user-like{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.user-comment-like-count{
+    font: 12px Roboto;
+}
+
+.like-div{
+    margin-right: 5px;
+    padding: 2px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.dislike-div{
+    padding: 2px;
+    margin-left: 15px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.reply-text{
+    font:12px roboto;
+    font-weight: 500;
+    margin-left: 18px;
+    padding: 8px 12px;
+    border-radius: 14px;
+}
+
+.replies-triangle{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    padding: 6px;
+    border-radius: 16px;
+}
+
+.triangle{
+    width: 24px;
+    margin-right: 8px;
+}
+
+.replies{
+    font: 14px roboto;
+    font-weight: 500;
+    color: rgba(6, 95, 212);
+}
+
+.years-ago:hover {
+    color: black;
+}
+
+.reply-text:hover{
+    background-color: rgba(128, 128, 128, 0.215);
+}
+
+.replies-triangle:hover {
+    background-color:rgba(6, 95, 212, 0.116);
+}
+
+.like-div:hover,
+.dislike-div:hover{
+    background-color: rgba(128, 128, 128, 0.21);
+}
+
+.like-div:hover .tooltip-like,
+.dislike-div:hover .tooltip-dislike{
+    opacity: 1;
+}
+
+.tooltip-like,
+.tooltip-dislike{
+    font : 12px roboto;
+    top: 88px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(128, 128, 128, 0.957);
+    padding: 10px 8px 8px 8px;
+    height: 18px;
+    color: white;
+    border-radius: 6px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+}
+
+.tooltip-like{
+    left: -5px;
+    width: 24px;
+}
+
+.tooltip-dislike{
+    left: 62px;
+    width: 34px;
+}
+
+
