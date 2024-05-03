@@ -81,7 +81,6 @@ main{
 }
 
 .like-button{
-    margin-left: 70px;
     border: none;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -211,11 +210,19 @@ main{
 }
 
 @media(min-width:200px) and (max-width:672px){
-    
 
     .video{
-        width: min(75ch, 50%);
-        /* width: max(45ch, 50%); */
+        /* width: min(75ch, 50%); */
+        width: max(45ch, 50%);
     }
 
+}
+
+@media(max-width:600px){
+    .like-button,
+    .dislike-button,
+    .share-icon-with-text{
+        width: 0;
+        opacity: 0;
+    }
 }
