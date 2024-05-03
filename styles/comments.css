@@ -76,6 +76,10 @@
     cursor: pointer;
 }
 
+.tick{
+    height: 12px;
+}
+
 .comments-like-dislike{
     margin-left: 16px;
     position: relative;

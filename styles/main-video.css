@@ -20,6 +20,11 @@ main{
     display: flex;
 }
 
+.upper-video-div,
+.extra-space-after-subscribe{
+    flex: 1;
+}
+
 .video{
     width: 640px;
     border-radius: 8px;
@@ -174,4 +179,33 @@ main{
 
 .wiz-khalifa-tour{
     padding-bottom: 16px;
+}
+
+
+@media(max-width: 1050px){
+    .video-suggestions-comments{
+        grid-template-columns: minmax(200px,1000px);
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: start;
+    }
+
+    .video-description{
+        flex: 1;
+    }
+
+    .video-div{
+        display: flex;
+        justify-content: center;
+    }
+
+    .up-next-video-info{
+        flex: 1;
+    }
+
+    .comments-like-dislike{
+        flex: 1;
+    }
 }
