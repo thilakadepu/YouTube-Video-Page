@@ -203,3 +203,39 @@
 }
 
 
+.verified-user{
+    position: relative;
+}
+
+.tooltip-top-user-name,
+.tooltip-bottom-user-name{
+    position: absolute;
+    color: white;
+    font-weight: 100;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.tooltip-top-user-name{
+    font-size: 13px;
+    top: -50px;
+    border-radius: 5px;
+    padding: 8px 5px;
+    background-color: rgba(86, 86, 86, 0.783);
+    transition: opacity 0.3s;
+}
+
+.tooltip-bottom-user-name{
+    font-size: 12px;
+    padding: 3px 5px;
+    top: 25px;
+    left: 75px;
+    background-color: rgba(0, 0, 0, 0.788);
+    transition-delay: 1s;
+}
+
+
+.user-name:hover .tooltip-top-user-name,
+.user-name:hover .tooltip-bottom-user-name{
+    opacity: 1;
+}
