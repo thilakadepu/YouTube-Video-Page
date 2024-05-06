@@ -61,11 +61,28 @@
     margin-bottom:3px;
     margin-top: 8px;
 }
+
+.verified-music-div{
+    position: relative;
+}
  
 .verified-music{
     padding-left: 5px;
     margin-top: 2px;
     height: 12px;
+}
+
+.offical-artist-channel{
+    padding: 7px 8px;
+    background-color: grey;
+    color: white;
+    bottom: 20px;
+    right: -50px;
+    width: 120px;
+    border-radius: 4px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.15s;
 }
 
 .up-next-video-views-div{
@@ -122,4 +139,8 @@
     margin-bottom: 8px;
     margin-right: 4px;
     border-radius: 6px;
+}
+
+.verified-music-div:hover .offical-artist-channel{
+    opacity: 1;
 }

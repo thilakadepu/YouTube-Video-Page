@@ -230,12 +230,15 @@
     padding: 3px 5px;
     top: 25px;
     left: 75px;
-    background-color: rgba(0, 0, 0, 0.788);
-    transition-delay: 1s;
+    background-color: rgba(0, 0, 0, 0.788);                                                         
 }
 
 
 .user-name:hover .tooltip-top-user-name,
 .user-name:hover .tooltip-bottom-user-name{
     opacity: 1;
+}
+
+.user-name:hover .tooltip-bottom-user-name{
+   transition-delay: 1s;
 }
